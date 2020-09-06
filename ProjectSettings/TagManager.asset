@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Trap
+  - Character
+  - ChangeMovingDirection
+  - StopPoint
+  - TransitionScreen
+  - ChoosePoint
+  - WinPanel
+  - LosePanel
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Boss
+  - Player
+  - Walls
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2197769975
+    locked: 0
+  - name: Boss
+    uniqueID: 2274304763
+    locked: 0
+  - name: Player
+    uniqueID: 2522586127
+    locked: 0
+  - name: Walls
+    uniqueID: 2092030041
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
