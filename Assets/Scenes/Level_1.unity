@@ -7712,6 +7712,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu/TransitionScreen/LevelText
       objectReference: {fileID: 0}
+    - target: {fileID: 2132845832332328401, guid: 5dd35b541bb1edf4597227f0d7634c52,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2132845832332328401, guid: 5dd35b541bb1edf4597227f0d7634c52,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2132845832332328401, guid: 5dd35b541bb1edf4597227f0d7634c52,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2221892238097410773, guid: 5dd35b541bb1edf4597227f0d7634c52,
         type: 3}
       propertyPath: saveLevel
