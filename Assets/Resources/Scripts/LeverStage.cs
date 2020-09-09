@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LeverStage : MonoBehaviour
-{
+{    
     private Animator characterAnimator;
     public Animator cameraAnimator;
     public Animator leverAnimator;
     private CharacterController characterController;
+    [SerializeField] private UI _ui;
 
     public enum Introduction { Lever, Hole, Lift };
     public Introduction currentIntroduction;
@@ -49,7 +50,7 @@ public class LeverStage : MonoBehaviour
 
         characterAnimator.SetTrigger("PushLever");
         leverAnimator.SetTrigger("PushLever");
-
+        _ui.HideTextTapToPlay();
         yield return new WaitForSeconds(1.5f);
 
         characterController.enabled = true;

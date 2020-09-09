@@ -385,6 +385,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &180145627 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1613990858403715597, guid: 5dd35b541bb1edf4597227f0d7634c52,
+    type: 3}
+  m_PrefabInstance: {fileID: 4857260078187170781}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ece141ea0a21ab0409621db811a00282, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &227094304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1372,6 +1384,11 @@ PrefabInstance:
       propertyPath: leverAnimator
       value: 
       objectReference: {fileID: 1012060890}
+    - target: {fileID: 7662623738564681778, guid: 640a6c3ffab03934297235ca21f3258b,
+        type: 3}
+      propertyPath: _ui
+      value: 
+      objectReference: {fileID: 180145627}
     - target: {fileID: 7662623738564681779, guid: 640a6c3ffab03934297235ca21f3258b,
         type: 3}
       propertyPath: isLever
@@ -7748,7 +7765,7 @@ PrefabInstance:
     - target: {fileID: 4857260077781006872, guid: 5dd35b541bb1edf4597227f0d7634c52,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 189.1
+      value: 189.09998
       objectReference: {fileID: 0}
     - target: {fileID: 4857260077781006875, guid: 5dd35b541bb1edf4597227f0d7634c52,
         type: 3}
@@ -7770,10 +7787,20 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4857260078437810536, guid: 5dd35b541bb1edf4597227f0d7634c52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -35.999878
+      objectReference: {fileID: 0}
     - target: {fileID: 4857260078461573631, guid: 5dd35b541bb1edf4597227f0d7634c52,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655614534422188247, guid: 5dd35b541bb1edf4597227f0d7634c52,
+        type: 3}
+      propertyPath: m_Name
+      value: TapToPlay
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dd35b541bb1edf4597227f0d7634c52, type: 3}

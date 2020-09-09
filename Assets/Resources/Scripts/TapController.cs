@@ -6,7 +6,7 @@ public class TapController : MonoBehaviour
 {
     private void OnMouseDown()
     {
-        CharacterController.isTouch = true;
+        CharacterController.isTouch = true;        
     }
     private void OnMouseUp()
     {
